@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <input id="PasswordId" type="text">
+
+        <div>
+            <input id="LengthId" type="range" min="6" max="24">
+            <label for="LengthId"></label>
+        </div>
+
+        <div>
+            <input id="LowerId" type="checkbox">
+            <label for="LowerId">Letras minúsculas</label>
+        </div>
+
+        <div>
+            <input id="UpperId" type="checkbox">
+            <label for="UpperId">Letras maiúsculas</label>
+        </div>
+
+        <div>
+            <input id="NumberId" type="checkbox">
+            <label for="NumberId">Números</label>
+        </div>
+
+        <div>
+            <input id="SymbolsId" type="checkbox">
+            <label for="SymbolsId">Simbolos</label>
+        </div>
+
+        <button id="generatePassId">Gerar</button>
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
